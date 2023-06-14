@@ -43,3 +43,28 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .photo {
+    width: 90%;
+    height: auto;
+  }
+
+  .content,
+  .backButton {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .authorText {
+    width: 90vw;
+  }
+
+  .title img {
+    margin-top: 15px;
+  }
+
+  .backButton {
+    margin-top: 10px;
+  }
+}

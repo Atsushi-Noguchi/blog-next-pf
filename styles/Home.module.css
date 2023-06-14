@@ -16,3 +16,14 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 90px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .gridWrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+  }
+}

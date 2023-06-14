@@ -50,3 +50,19 @@
   height: 50px;
   margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+  .text {
+    padding: 1rem;
+  }
+
+  .imgContainer {
+    height: 30vh;
+  }
+
+  .author img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+}
